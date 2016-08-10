@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs"
+  },
+  "files": [
+    "src/point.ts",
+    "src/rect.ts",
+    "src/index.ts",
+    "typings/index.d.ts"
+  ]
+}
