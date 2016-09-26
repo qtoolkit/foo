@@ -1,7 +1,7 @@
 /**
  * 表示一个2D坐标。
  */
-export = class Point {
+export class Point {
 	public x:number;
 	public y:number;
 

@@ -1,11 +1,15 @@
 {
   "compilerOptions": {
-    "module": "commonjs"
+    "module": "commonjs",
+    "target": "es5",
+    "declaration": true,
+    "outDir": "./js/",
+    "lib": ["es6", "es2015", "dom"]
   },
   "files": [
-    "src/point.ts",
-    "src/rect.ts",
-    "src/index.ts",
-    "typings/index.d.ts"
+    "src/index.ts"
+  ],
+  "exclude": [
+    "node_modules", "typings"
   ]
 }

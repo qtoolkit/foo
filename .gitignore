@@ -1,5 +1,4 @@
 node_modules/
 out/
-index.js
-src/*.js
-coverage/
+doc/
+coverage

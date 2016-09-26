@@ -4,7 +4,7 @@ var libraryName = 'foo';
 module.exports = {  
   cache: true,
   entry: {
-    index : './src/index.js'
+    index : './js/index.js'
   },
   output: {
     path: '',

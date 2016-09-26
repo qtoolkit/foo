@@ -1,7 +1,7 @@
 /**
  * 矩形
  */
-export = class Rect {
+export class Rect {
 	public x:number;
 	public y:number;
 	public w:number;
